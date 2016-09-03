@@ -3,7 +3,13 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 gem 'coffee-rails', '~> 4.1.0'
+
+# Authentication
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-google'
+gem 'therubyracer'
+
 gem 'jquery-rails'
 gem 'rails', '5.0.0'
 gem 'pg', '~> 0.15'
