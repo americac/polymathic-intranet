@@ -1,2 +1,25 @@
-h1 Company#index
-p Find me in app/views/company/index.html.slim
+= render 'office_pictures'
+
+div id="links"
+  h3 Links to Share
+
+  div id="client-referral"
+    = link_to "Client Referral Program"
+    p some info about this
+
+  div id="employement"
+    = link_to "Jobs @ Polymathic"
+    p some info about this
+
+  div id="services"
+    = link_to "Services We Offer"
+    p some info about this
+
+div id="office-rules"
+  h3 Office Rules
+  ul
+    li be nice
+    li be cool
+    li don't jump out a window
+    li leave toilet seat down
+    li etc...
