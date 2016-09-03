@@ -5,6 +5,9 @@ gem 'rails', '~> 4.2.5'
 
 # Authentication
 gem 'devise', '~> 3.5'
+gem 'omniauth'
+gem 'omniauth-google'
+gem 'therubyracer'
 
 # Database Gems
 gem 'pg', '~> 0.18.2'
