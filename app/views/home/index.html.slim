@@ -2,16 +2,31 @@
 
 div id="quick-links"
   h3 Quick Links
-  = link_to "Asana"
-  '
-  = link_to "Google Drive"
-  '
-  = link_to "DropBox"
-  '
-  = link_to "Pivotal Tracker"
-  '
-  = link_to "Github"
-  '
-  = link_to "1Password"
-  '
-  = link_to "Harvest"
+
+  div id="asana"
+    = link_to "Asana"
+    p some info about this
+
+  div id="google-drive"
+    = link_to "Google Drive"
+    p some info about this
+
+  div id="drop-box"
+    = link_to "DropBox"
+    p some info about this
+
+  div -d="pivotal"
+    = link_to "Pivotal Tracker"
+    p some info about this
+
+  div id="github"
+    = link_to "Github"
+    p some info about this
+
+  div id="password"
+    = link_to "1Password"
+    p some info about this
+
+  div id="harvest"
+    = link_to "Harvest"
+    p some info about this
