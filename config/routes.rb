@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'benefits/index'
+
   root to: "home#index"
   get 'home/index'
 
